@@ -16,7 +16,7 @@ def point():
 
     print("CSV file 'scores.csv' created.\n")
 
-def read_and_average_scores():
+def average():
     with open("scores.csv") as f:
         reader = csv.reader(f)
         next(reader)  
@@ -28,9 +28,10 @@ def read_and_average_scores():
 
 def main():
     point()
-    read_and_average_scores()
+    average()
 
 main()
 
 
 # completion of program
+
