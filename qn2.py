@@ -1,6 +1,6 @@
 import csv
 
-def write_scores():
+def point():
     data = [
         ["name", "database", "account", "java"],
         ["Aadiskar", 80, 60, 55],
@@ -27,9 +27,10 @@ def read_and_average_scores():
             print(f"{name}'s average score is {average:.2f}")
 
 def main():
-    write_scores()
+    point()
     read_and_average_scores()
 
 main()
+
 
 # completion of program
